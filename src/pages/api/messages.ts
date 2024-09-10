@@ -1,5 +1,5 @@
 // pages/api/messages/index.js
-import pool from '../../../../sms-feedback/db';  // Убедитесь, что путь к файлу конфигурации базы данных верный
+import pool from '../../../db';  // Убедитесь, что путь к файлу конфигурации базы данных верный
 
 export default async function handler(req, res) {
   if (req.method === 'GET') {

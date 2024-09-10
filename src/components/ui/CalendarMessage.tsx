@@ -9,7 +9,7 @@ interface Message {
   text: string; // Текст сообщения
 }
 
-const MessageCalendar: React.FC = () => {
+const CalendarMessage: React.FC = () => {
   // Состояние для хранения текущей выбранной даты
   const [date, setDate] = useState<Date>(new Date());
   // Состояние для хранения списка сообщений
@@ -82,4 +82,4 @@ const MessageCalendar: React.FC = () => {
   );
 };
 
-export default MessageCalendar;
+export default CalendarMessage;

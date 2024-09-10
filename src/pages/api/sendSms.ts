@@ -1,4 +1,4 @@
-import pool from "../../../../sms-feedback/db";
+import pool from "../../../db";
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
